@@ -62,7 +62,10 @@ header a:hover {
 	background-position: 0 0;
 	background-size: contain;
 	background-origin: content-box;
+
 }
+
+/* .wrap__text {} */
 
 h1 {
 	font-size: 8rem;
