@@ -38,7 +38,6 @@ header a {
 }
 
 header a:hover {
-
 	color: rgba(40, 40, 40, 0.8);
 	background: linear-gradient(135deg, transparent, rgba(255, 255, 255, 0.6));
 }
@@ -64,8 +63,6 @@ header a:hover {
 	background-origin: content-box;
 
 }
-
-.wrap__text {}
 
 h1 {
 	font-size: 8rem;
@@ -193,7 +190,6 @@ footer a:hover {
 	justify-content: center;
 	border-top: 3px solid rgb(255, 255, 255);
 	line-height: 3;
-
 }
 
 .copyright p {
@@ -220,11 +216,15 @@ footer a:hover {
 	}
 
 	h1 {
-		font-size: 6rem;
+		font-size: 5rem;
 		text-align: center;
 	}
 
-	.wrap__text h2,
+	.wrap__text h2 {
+		font-size: 2rem;
+	}
+
+
 	.wrapper h2 {
 		font-size: 3rem;
 	}
@@ -258,7 +258,6 @@ footer a:hover {
 	.wrap__top {
 		flex-flow: column;
 		align-items: center;
-
 	}
 
 	.wrap__logo {
@@ -276,16 +275,11 @@ footer a:hover {
 	}
 
 	h1 {
-		font-size: 3.5rem;
+		font-size: 4rem;
 	}
 
-	.wrap__text h2,
-	.wrapper h2 {
-		font-size: 2rem;
-	}
-
-	.head__foto {
-		font-size: 2.5rem;
+	.wrap__text h2 {
+		font-size: 1.6rem;
 	}
 
 	.section__foto {
@@ -313,7 +307,6 @@ footer a:hover {
 	.wrap__top {
 		flex-direction: column;
 		align-items: center;
-
 	}
 
 	.wrap__logo {
@@ -323,6 +316,14 @@ footer a:hover {
 
 	.wrap__text {
 		text-align: center;
+	}
+
+	.wrap__text h1 {
+		font-size: 3rem;
+	}
+
+	.wrap__text h2 {
+		font-size: 1.6rem;
 	}
 
 	footer {
